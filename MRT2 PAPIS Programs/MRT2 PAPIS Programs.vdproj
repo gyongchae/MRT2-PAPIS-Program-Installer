@@ -3591,6 +3591,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_F1A2E8F9B3894B04A8B6732D4E3DC834"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_F1F2AD445057425FB626FE5D26D722FD"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -3808,13 +3814,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F9C8E259D96F4C9A8441810B05DEBDDD"
+        "OwnerKey" = "8:_5FA5B94399F440B9ABDB3AE4EA86B6AC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5FA5B94399F440B9ABDB3AE4EA86B6AC"
+        "OwnerKey" = "8:_F9C8E259D96F4C9A8441810B05DEBDDD"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -3825,7 +3831,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\MRT2 PAPIS Programs.msi"
+        "OutputFilename" = "8:Debug\\MRT2_PAPIS_Programs_yyyyddmm.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -15854,6 +15860,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F1A2E8F9B3894B04A8B6732D4E3DC834"
+            {
+            "SourcePath" = "8:..\\Default Folder\\PapisData\\stationinfo.ini"
+            "TargetName" = "8:stationinfo.ini"
+            "Tag" = "8:"
+            "Folder" = "8:_0B47BDDD8F29462DAFA1F5CCEE92537F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F1F2AD445057425FB626FE5D26D722FD"
             {
             "SourcePath" = "8:..\\Default Folder\\FileUpload\\translations\\qt_uk.qm"
@@ -17174,15 +17200,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:MRT2 PAPIS Program"
-        "ProductCode" = "8:{E651BCFE-04AD-47E9-BE1B-4C408F5445AC}"
-        "PackageCode" = "8:{4483B3D7-FC9F-4255-841B-2198F83E92F1}"
+        "ProductCode" = "8:{088A6AEF-794C-4AAA-A807-BFC90CC4303E}"
+        "PackageCode" = "8:{175491F5-1EFF-481B-BC50-C746CEE8D64C}"
         "UpgradeCode" = "8:{80D1A739-6714-45F8-AEF6-D7E21CF1F5A5}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.3"
+        "ProductVersion" = "8:1.0.4"
         "Manufacturer" = "8:Woojin"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -17311,8 +17337,8 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_268C8DD21BD3475AB649547ACA70EA60"
             {
-            "Name" = "8:Uninstall"
-            "Arguments" = "8:/x {E651BCFE-04AD-47E9-BE1B-4C408F5445AC}"
+            "Name" = "8:Uninstall PAPIS SW"
+            "Arguments" = "8:/x {088A6AEF-794C-4AAA-A807-BFC90CC4303E}"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
